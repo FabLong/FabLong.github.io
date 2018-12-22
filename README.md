@@ -1,4 +1,8 @@
 # FabLong.github.io
+###### Website
+Visit the website here: [WEBSITE](https://fablong.github.io/home/).
 
-#Visit the website here:FabLong.github.io
-#~This repository contains all the requird information for it to work ;)
+
+## Info
+This repository contains all the required information for it to work ;)
+Just Messing around with it for now.
