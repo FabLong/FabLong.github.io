@@ -76,3 +76,12 @@ img {
 img:hover {
     box-shadow: 0px 0px 100px 5px; /* Transparent Shadow Effect  rgba(255, 255, 255, 0.8) */
 }
+
+a {
+  text-decoration: none;   
+}
+
+
+a:visited {
+    color: snow;
+}
