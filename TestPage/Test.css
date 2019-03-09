@@ -78,7 +78,8 @@ img:hover {
 }
 
 a {
-  text-decoration: none;   
+  text-decoration: none;
+  color: snow   
 }
 
 a:visited {
