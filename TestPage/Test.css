@@ -21,14 +21,14 @@ footer {
 h2 {
 	color: white;
     font: bold 24px 'Staatliches', cursive;
-    margin-top: 70px;
+    margin: 50px auto auto auto;
     text-align: center;
 }
 
 h2:hover {
 	color: mediumslateblue;
     font: bold 24px 'Staatliches', cursive;
-    margin-top: 70px;
+    margin-top: 50px;
     text-align: center;
     text-decoration: underline;
 }
