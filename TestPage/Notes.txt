@@ -1,0 +1,5 @@
+Edit all px to % dimension
+
+Fix Navigation on ios/android
+
+Fix socials list on ios/android
