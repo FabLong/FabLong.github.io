@@ -12,6 +12,18 @@
 <link rel="stylesheet" text="text/css" href="main.mobile.css">
 
 <!-- <link rel="icon"  type="img/ico" href="favicon.ico"> -->
+<script>
+        document.getElementById("element").style.display = "none";
+        function myFunction() {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+
 <style>
 html {
     max-width: 600px;
@@ -23,6 +35,7 @@ html {
 </head>
 
 <body>
+<div style="display: none" id="myDIV"><p>⢀⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆ ⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠁⠸⣼⡿ ⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉⠀⠀⠀⠀⠀ ⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀ ⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠿⠿⠛⠉</p></div>
 <h2>The Mobile Periodic Table Of:</h2>
 
 <h1>Elements</h1>
@@ -162,7 +175,7 @@ html {
             <td class="unknown"><a class="synthetic" href="https://en.wikipedia.org/wiki/Moscovium" title="Moscovium"><sup>115</sup><br>Mc</a> </td>
             <td class="unknown"><a class="synthetic" href="https://en.wikipedia.org/wiki/Livermorium" title="Livermorium"><sup>116</sup><br>Lv</a> </td>
             <td class="unknown"><a class="synthetic" href="https://en.wikipedia.org/wiki/Tennessine" title="Tennessine"><sup>117</sup><br>Ts</a> </td>
-            <td class="unknown"><a class="synthetic" href="https://en.wikipedia.org/wiki/Oganesson" title="Oganesson"><sup>118</sup><br>Og</a> </td>
+            <td class="unknown"><a class="synthetic" href="https://en.wikipedia.org/wiki/Oganesson" target="_blank" title="Oganesson"><sup>118</sup><br>Og<p onclick="myFunction()" style="font-size:20px">re</p></a> </td>
         </tr>
         <tr>
             <td colspan="19">&nbsp;</td>
