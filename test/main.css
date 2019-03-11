@@ -1,0 +1,157 @@
+html {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+body {
+    text-align: center;
+}
+
+footer {
+    margin: 40px 0 0 0;
+}
+
+h1 {
+    color: whitesmoke;
+    font: bold 100px 'Lato', sans-serif;
+    text-decoration: underline;  
+}
+
+h2 {
+    color: whitesmoke;
+    font: normal 30px 'Lato', sans-serif;
+
+}
+
+p {
+    color: whitesmoke;
+}
+
+a {
+   color: whitesmoke;
+   text-decoration: none;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: rgb(255, 0, 255);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+th {
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+    font-size: 17px;
+}
+
+sup {
+    font-size: 55%;
+    line-height: 0;
+    position: relative;
+    top: 0.5em;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Classes for Periodic Table */
+td.alkali {
+    background: rgb(161, 0, 161);
+}
+
+td.alkali_earth {
+    background: rgb(212, 0, 71);
+}
+
+td.transition {
+    background: rgb(212, 85, 0);
+}
+
+td.other_metals {
+    background: rgb(0, 138, 0); 
+}
+
+td.metalloids {
+    background:rgb(59, 180, 255);
+}
+
+td.other_non_metals {
+    background: rgb(70, 67, 253); 
+}
+
+td.halogens {
+    background: rgb(206, 179, 28);
+}
+
+td.nobles {
+    background: rgb(173, 160, 247);
+}
+
+td.lanthanides_and_actinides {
+    background: rgb(229, 165, 176);
+}
+
+td.unknown {
+    background: rgb(114, 114, 114);
+}
+
+a.liquid {
+    color:  blue;
+    text-shadow: 1px 1px 2px black;
+}
+
+a.liquid:visited {
+    color:  blue;
+    text-shadow: 1px 1px 2px black;
+}
+
+a.liquid:hover {
+    color:  rgb(255, 0, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+a.gas {
+    color:  rgb(5, 255, 5);
+    text-shadow: 1px 1px 2px black;
+}
+
+a.gas:visited {
+    color:  rgb(5, 255, 5);
+    text-shadow: 1px 1px 2px black;
+}
+
+a.gas:hover {
+    color:  rgb(255, 0, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+a.synthetic {
+    color:  rgb(250, 204, 0);
+    text-shadow: 1px 1px 2px black;
+}
+
+a.synthetic:visited {
+    color:  rgb(250, 204, 0));
+    text-shadow: 1px 1px 2px black;
+}
+
+a.synthetic:hover {
+    color:  rgb(255, 0, 255);
+    text-shadow: 1px 1px 2px black;
+}
