@@ -1,5 +1,8 @@
 html {
-    background-color: white;
+    background-image: linear-gradient(250deg, rgb(109, 109, 109), rgb(141, 72, 141));
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Roboto', sans-serif; 
 }
 
 #container {
@@ -12,6 +15,61 @@ body {
     text-align: center;
 }
 
-input {
-    width: 10%;
+form {
+    width: 30%;
+    margin: 5% auto 0 auto;
+}
+
+select {
+    width: 20em;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 15px 15px; 
+}
+
+textarea {
+    color: rgb(59, 59, 59);
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 15px 15px;
+    display: inline-block;
+}
+
+fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+    margin: 0 10%;
+    color: black;
+}
+
+input, 
+select.choice {
+    color: rgb(59, 59, 59);
+    width: 100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 15px 15px;
+    display: inline-block;
+    font: normal 15px 'Roboto', sans-serif;
   }
+
+input.next {
+    background-color: rgb(141, 72, 141);
+    border-radius: 0;
+    color: white;
+    width: 10em;
+    border: none;
+    font: normal 15px 'Roboto', sans-serif;
+}

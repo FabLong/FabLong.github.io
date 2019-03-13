@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-<title>Sixth Form | Options</title>
+<title>Account | info</title>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Forms">
@@ -9,28 +9,37 @@
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" text="text/css" href="forms.css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 <!-- <link rel="icon"  type="img/ico" href="favicon.ico"> -->
 </head>
 
 <body>
-<h1>Chauncy Sixth Form Options</h1>
 
 <div>
-    <form action="#process_page.php"> <!-- Change details and process input using PHP tutorial -->
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="First Name">
+    <form action="#process_page.php" method="POST"> <!-- Change details and process input using PHP tutorial  and do method="POST" for secure login in URL-->
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+    <fieldset>
+    <h2>Create Account</h2>
+    <hr>
+    <h3>Step 1</h3>
 
-    <label for="school">School</label>
-    <select id="school" name="school">
+      <input id="fname" type="text" name="firstname" placeholder="First Name">
+
+      <input id="lname" type="text" name="lastname" placeholder="Last Name">
+    
+      <input id="age" type="number" name="age" placeholder="age">
+      
+      <select class="choice" id="school" name="school">
       <option value="chauncy">The Chauncy School</option>
       <option value="other_school">I attend a different school</option>
       <option value="other">Other</option>
-    </select>
+      </select>
+      <input id="next" class="next" type="submit" value="Next">
+
+    </fieldset>
+
     
-    <input type="submit" value="Complete">
     </form>
 </div>
 
