@@ -41,7 +41,6 @@ html {
   text-align: center;
   color: white;
   box-shadow: 0 3px 15px 4px lightgray;
-  margin: auto;
   padding: 5px;
 }
 
@@ -72,10 +71,15 @@ ol.menu {
 }
 
 li.topmenu {
-  float: left;
-  margin: 0 auto 0 37px;
+  float: right;
+  margin: 0px auto 0 37px;
   position: relative;
-  left: -8%;
+  padding: 20px;
+}
+
+li a.active {               /* Active Page */
+  color: white;
+  text-decoration: underline;
 }
 
 /* For Mobile Phones:*/
@@ -101,6 +105,10 @@ li.topmenu {
   
     .hidemobile {
       display: none;
+    }
+
+    .link {
+      margin: 0 auto 0 -20%;
     }
   }
 
