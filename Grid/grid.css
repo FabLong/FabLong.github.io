@@ -108,7 +108,7 @@ li a.active {               /* Active Page */
     }
 
     .link {
-      margin: 0 auto 0 20%;
+      margin: 0 auto 0 0;
     }
   }
 
