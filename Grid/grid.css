@@ -106,10 +106,6 @@ li a.active {               /* Active Page */
     .hidemobile {
       display: none;
     }
-
-    .link {
-      margin: 0 auto 0 -20%;
-    }
   }
 
 
